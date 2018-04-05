@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+section {
+	height: 800px;
+	width: 100%;
+}
+
+.navPage {
+	background-image:url(../design/images/background.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.year2003 {
+	background-image:url(../design/images/2003.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.year2005 {
+	background-image:url(../design/images/2005.JPG);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.year2007 {
+	background-image:url(../design/images/2007.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.year2010 {
+	background-image:url(../design/images/2010.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.year2013 {
+	background-image:url(../design/images/2013.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body {
+	background-image:url(../design/images/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	width:100%;
+}
+
+html, body, #container { 
+	height: 100%; 
+}
+
+body > #container { 
+	height: auto; 
+	min-height: 100%; 
+}
+
+.midContent {
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+	top: 10.5em;
+	left: 12.75em;	
+	margin-bottom:10%;
+	font-weight:600;
+	font-size:12pt;
+	line-height:200%;
+	color:white;
+	margin-right:10em;
+	width:70%;
+}

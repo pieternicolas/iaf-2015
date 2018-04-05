@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../design/images/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	width:100%;
+}
+
+html, body, #container { 
+	height: 100%; 
+}
+
+body > #container { 
+	height: auto; 
+	min-height: 100%; 
+}
+p {
+	font-weight:600;
+	font-size:12pt;
+	line-height:200%;
+}
+.midText {
+	font-family: 'Open Sans', sans-serif;
+	top:10.5em;
+	position:relative;
+	color: white;
+	margin-bottom:3em;
+}
+
+.topRow {
+	width:60%;
+	margin-left:12.75em;
+}
+
+.line {
+	height:0.25em;
+	width:5em;
+	margin-bottom:1em;
+}
+
+.botRow {
+	margin-left:12.75em;
+}
+
+.column1, .column2 {
+	width:70%;
+}
+
+.column1 {
+	margin-right:-2em;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../design/images/background.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	width:100%;
+}
+
+html, body, #container { 
+	height: 100%; 
+}
+
+body > #container { 
+	height: auto; 
+	min-height: 100%; 
+}
+
+.midLogo {
+	left: 11.5em;
+	top: 15.5em;
+	position: absolute;
+}
+
+.midText, .midText:hover {
+	top: 11.5em;
+	right: 7.5em;
+	position: absolute;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size:18pt;
+}
+
+.midText1 {
+	margin-bottom:10px;
+}

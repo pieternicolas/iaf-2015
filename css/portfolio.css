@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content {
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+}
+
+.midText {
+	padding-top:5em;
+	margin-left:10em;
+	margin-right:10em;
+}
+
+.paraHead {
+	display:block;
+	font-size: 1.6em;
+	margin-bottom:2em;
+}
+
+.paraText {
+	font-weight:600;
+	font-size:12pt;
+	line-height:200%;
+	width:85%;
+}
+
+.paraText a {
+	color:white;
+	font-size:11pt;
+}
+
+.paraText a:hover {
+	color:white;
+	font-style:italic;
+}
+
+.midNav {
+	padding-top:20%;
+	font-size:16.5pt;
+	font-weight:600;
+}
+
+.navLine {
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+	margin-left:20%;
+	width:50%;
+}
+
+.upperNav {
+	margin-left:10.5em;
+	max-width:80%;
+}
+
+.lowerNav {
+	margin-left:17.5em;
+	max-width:80%;
+}
+
+.linkNav {
+	display:inline-block;
+	margin-right:6.2em;
+}
+
+#indvLinkNav, #indvLinkNav:hover {
+	color:white;
+}
